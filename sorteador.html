@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ap">
+        <h1>Sortear números</h1><br>
+        <div>
+        do numero
+        <input class="inp" type="number" id="começo"> até
+        <input class="inp" type="number" id="fim"><br>
+        quantidade de números: <input class="inp" type="number" id="quantidade">
+        </div>
+        <button onclick="sortear()">sortear</button><br>
+        
+        <input type="radio" name="rep" id="nãoR" onchange="mudar()" checked>
+        <label for="nãoR">não repetir numeros</label><br>
+        <input type="radio" name="rep" id="simR" onchange="mudar()">
+        <label for="simR">Repetir numeros</label>
+        <h1 >Resultado:</h1>
+        <div id="re">
+            <h2 id="res"></h2>
+
+        </div>
+        
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

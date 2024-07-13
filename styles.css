@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, aqua 0%, lightgreen 100%);
+}
+.ap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(71, 135, 255, 0.459);
+    border: solid #40a9ff80;
+    width: 80%;
+    
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 20px;
+    box-shadow: -1.02px 1.02px 7px;
+}
+.inp {
+    border-radius: 20px;
+    border: none;
+    width: 60px;
+}
+button {
+    border-radius: 5px;
+    border: none;
+    box-shadow: -1.02px 1.02px 4px;
+}
+#re {
+    height: 140px;
+    width: 400px;
+    margin-top: -25px;
+    
+    overflow-y: scroll;
+}
+#nãoR {
+    margin-top: 10px;
+}
