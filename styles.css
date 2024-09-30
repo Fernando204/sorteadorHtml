@@ -11,9 +11,8 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: rgba(71, 135, 255, 0.459);
-    border: solid #40a9ff80;
+    border: solid #008cff80;
     width: 80%;
-    
     border-radius: 30px;
     padding: 15px;
     font-size: 20px;
@@ -28,6 +27,7 @@ button {
     border-radius: 5px;
     border: none;
     box-shadow: -1.02px 1.02px 4px;
+    mix-blend-mode: darken;
 }
 #re {
     height: 140px;
